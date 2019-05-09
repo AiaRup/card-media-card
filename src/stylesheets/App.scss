@@ -1,0 +1,74 @@
+@import 'vars';
+
+.App,
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $lightGrey;
+  // min-height: 100vh;
+  margin: 0 30px;
+}
+
+.App {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  color: #777;
+}
+
+.card__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.header__author {
+  margin: 0;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes__icon {
+  color: rgb(189, 22, 22);
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.footer__likes {
+  display: flex;
+  align-items: center;
+}
+
+.likes__number {
+  font-weight: bold;
+}
+
+.footer__link {
+  color: #888;
+  text-decoration: none;
+}
+
+.card__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
